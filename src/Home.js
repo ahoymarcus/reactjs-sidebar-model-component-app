@@ -6,6 +6,11 @@ import { AppContext, useGlobalContext } from './context';
 
 
 const Home = () => {
+  /* 
+    Testando dois métodos de uso para useContext:
+    1. useContext(AppContext)
+    2. useGlobalContext()
+  */
   //const data = useContext(AppContext);
   const data = useGlobalContext();
   console.log(data);
