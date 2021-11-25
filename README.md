@@ -1,4 +1,4 @@
-# React-JS Sidebar Modal Component App
+# React-JS Sidebar Modal Component App with useContext Hook
 
 <br />
 
