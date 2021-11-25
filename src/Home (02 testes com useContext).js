@@ -10,20 +10,18 @@ const Home = () => {
     Testando dois métodos de uso para useContext:
     1. useContext(AppContext)
     2. useGlobalContext()
-    //const data = useContext(AppContext);
-    const data = useGlobalContext();
-    console.log(data);
   */
-  const { openSidebar, openModal } = useGlobalContext();
-  
+  //const data = useContext(AppContext);
+  const data = useGlobalContext();
+  console.log(data);
 
 
   return (
     <main>
-      <button className="sidebar-toggle" onClick={openSidebar}>
+      <button className="sidebar-toggle">
         <FaBars />
       </button>
-      <button className="btn" onClick={openModal}>
+      <button className="btn">
         Show Modal
       </button>
     </main>

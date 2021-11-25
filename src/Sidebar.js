@@ -10,7 +10,7 @@ const Sidebar = () => {
 
 
   return (
-    <aside className={`sidebar show-sidebar`} >
+    <aside className={`sidebar /*show-sidebar*/`} >
       <div className="sidebar-header">
         <img src={logo} className="logo" alt="codding addict" />
         <button className="close-btn">
